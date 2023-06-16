@@ -1,0 +1,14 @@
+name: RT-Thread_Packages_Test
+
+on:
+  [push, pull_request]
+
+jobs:
+  pkgs-test:
+    uses: vacabun/pkgs-test/.github/workflows/pkgs-action.yml@main
+    with:
+      pkgs-test-repository: vacabun/pkgs-test
+      pkgs-test-branch: main
+      bsps: qemu-vexpress-a9:sourcery-arm stm32/stm32h750-artpi:sourcery-arm
+      package-version: latest
+      
