@@ -10,5 +10,6 @@ jobs:
       pkgs-test-repository: vacabun/pkgs-test
       pkgs-test-branch: main
       build-config: CONFIG_AT_USING_SOCKET=y
-      package-version: latest
+      rt-thread-versions: branch:master tag:v5.0.0
+      package-version: latest v2.0.4 v2.0.3 v2.0.2 v2.0.1
       
