@@ -9,6 +9,5 @@ jobs:
     with:
       pkgs-test-repository: vacabun/pkgs-test
       pkgs-test-branch: main
-      bsps: qemu-vexpress-a9:sourcery-arm stm32/stm32h750-artpi:sourcery-arm
-      package-version: latest
+      build-config: CONFIG_AT_USING_SOCKET=y
       
