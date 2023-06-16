@@ -10,4 +10,5 @@ jobs:
       pkgs-test-repository: vacabun/pkgs-test
       pkgs-test-branch: main
       build-config: CONFIG_AT_USING_SOCKET=y
+      package-version: latest
       
